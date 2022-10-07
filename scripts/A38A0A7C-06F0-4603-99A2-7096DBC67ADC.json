@@ -1,0 +1,356 @@
+{
+    "@class": "TimeLineScript",
+    "id": {
+        "uuid": "A38A0A7C-06F0-4603-99A2-7096DBC67ADC"
+    },
+    "name": "Animation",
+    "enableOnAwake": false,
+    "priority": 0,
+    "loop": false,
+    "is_imported": false,
+    "type": "user",
+    "scripts": {
+        "@class": "StdListRuntimeScript",
+        "list": [
+            {
+                "@class": "AnimationScript",
+                "id": {
+                    "uuid": "C24716B2-8F97-4F2F-9420-9F8FEC2B10BF"
+                },
+                "name": "Strip 1",
+                "enableOnAwake": false,
+                "OwnerLink": {
+                    "@class": "BindingLink",
+                    "targetId": {
+                        "uuid": "0C0ADAE2-8D04-41E4-90BB-BD70F35EABDA"
+                    },
+                    "targetRelativeAddress": {
+                        "@class": "NodeRelativeAddressBase",
+                        "index": 1,
+                        "name": "Tail 1",
+                        "subaddress": {
+                            "@class": "NodeRelativeAddressBase",
+                            "index": 0,
+                            "name": "Model",
+                            "subaddress": {
+                                "@class": "NodeRelativeAddressBase",
+                                "index": 2,
+                                "name": "Stripes - On",
+                                "subaddress": {
+                                    "@class": "NodeRelativeAddressBase",
+                                    "index": 0,
+                                    "name": "Strip 1"
+                                }
+                            }
+                        }
+                    }
+                },
+                "animation": {
+                    "uuid": "C171CACA-6C01-4B6C-BDDA-26CECE05F8E8"
+                },
+                "AnimationType": "object3D",
+                "is_imported": false,
+                "isEnabled": true
+            },
+            {
+                "@class": "AnimationScript",
+                "id": {
+                    "uuid": "682212B7-86F6-4015-81C1-4F06DB354F6D"
+                },
+                "name": "Strip 2",
+                "enableOnAwake": false,
+                "OwnerLink": {
+                    "@class": "BindingLink",
+                    "targetId": {
+                        "uuid": "E3CE4CC5-70B6-460D-AF59-F724308DAA0D"
+                    },
+                    "targetRelativeAddress": {
+                        "@class": "NodeRelativeAddressBase",
+                        "index": 1,
+                        "name": "Tail 1",
+                        "subaddress": {
+                            "@class": "NodeRelativeAddressBase",
+                            "index": 0,
+                            "name": "Model",
+                            "subaddress": {
+                                "@class": "NodeRelativeAddressBase",
+                                "index": 2,
+                                "name": "Stripes - On",
+                                "subaddress": {
+                                    "@class": "NodeRelativeAddressBase",
+                                    "index": 1,
+                                    "name": "Strip 2"
+                                }
+                            }
+                        }
+                    }
+                },
+                "animation": {
+                    "uuid": "5D0550AE-E971-4C68-9BF7-DFDAF57E1DDD"
+                },
+                "AnimationType": "object3D",
+                "is_imported": false,
+                "isEnabled": true
+            },
+            {
+                "@class": "AnimationScript",
+                "id": {
+                    "uuid": "7725C9A2-53F6-431B-B27C-92CFCE6A9329"
+                },
+                "name": "Strip 3",
+                "enableOnAwake": false,
+                "OwnerLink": {
+                    "@class": "BindingLink",
+                    "targetId": {
+                        "uuid": "C4555864-D20A-4DD6-ACD5-6B257B129D01"
+                    },
+                    "targetRelativeAddress": {
+                        "@class": "NodeRelativeAddressBase",
+                        "index": 1,
+                        "name": "Tail 1",
+                        "subaddress": {
+                            "@class": "NodeRelativeAddressBase",
+                            "index": 0,
+                            "name": "Model",
+                            "subaddress": {
+                                "@class": "NodeRelativeAddressBase",
+                                "index": 2,
+                                "name": "Stripes - On",
+                                "subaddress": {
+                                    "@class": "NodeRelativeAddressBase",
+                                    "index": 2,
+                                    "name": "Strip 3"
+                                }
+                            }
+                        }
+                    }
+                },
+                "animation": {
+                    "uuid": "7D2C0EE4-70FD-4592-8856-E774893D2A26"
+                },
+                "AnimationType": "object3D",
+                "is_imported": false,
+                "isEnabled": true
+            },
+            {
+                "@class": "AnimationScript",
+                "id": {
+                    "uuid": "DBC5166A-AF69-447D-A0E5-99C57A8A679A"
+                },
+                "name": "Strip 4",
+                "enableOnAwake": false,
+                "OwnerLink": {
+                    "@class": "BindingLink",
+                    "targetId": {
+                        "uuid": "58E01809-6967-4CB8-9555-F6046D8F04F8"
+                    },
+                    "targetRelativeAddress": {
+                        "@class": "NodeRelativeAddressBase",
+                        "index": 1,
+                        "name": "Tail 1",
+                        "subaddress": {
+                            "@class": "NodeRelativeAddressBase",
+                            "index": 0,
+                            "name": "Model",
+                            "subaddress": {
+                                "@class": "NodeRelativeAddressBase",
+                                "index": 2,
+                                "name": "Stripes - On",
+                                "subaddress": {
+                                    "@class": "NodeRelativeAddressBase",
+                                    "index": 3,
+                                    "name": "Strip 4"
+                                }
+                            }
+                        }
+                    }
+                },
+                "animation": {
+                    "uuid": "387E4FFD-28F1-49BF-9D50-0B742A8742B8"
+                },
+                "AnimationType": "object3D",
+                "is_imported": false,
+                "isEnabled": true
+            },
+            {
+                "@class": "AnimationScript",
+                "id": {
+                    "uuid": "08AB4913-3DF2-46DA-8264-59A3A1DEF39F"
+                },
+                "name": "Strip 1",
+                "enableOnAwake": false,
+                "OwnerLink": {
+                    "@class": "BindingLink",
+                    "targetId": {
+                        "uuid": "1DDD8546-6741-4E9E-867E-C56942AAA82E"
+                    },
+                    "targetRelativeAddress": {
+                        "@class": "NodeRelativeAddressBase",
+                        "index": 1,
+                        "name": "Tail 1",
+                        "subaddress": {
+                            "@class": "NodeRelativeAddressBase",
+                            "index": 0,
+                            "name": "Model",
+                            "subaddress": {
+                                "@class": "NodeRelativeAddressBase",
+                                "index": 3,
+                                "name": "Stripes - Off",
+                                "subaddress": {
+                                    "@class": "NodeRelativeAddressBase",
+                                    "index": 0,
+                                    "name": "Strip 1"
+                                }
+                            }
+                        }
+                    }
+                },
+                "animation": {
+                    "uuid": "33B8FAE6-E463-4391-AD5F-1BB732A46025"
+                },
+                "AnimationType": "object3D",
+                "is_imported": false,
+                "isEnabled": true
+            },
+            {
+                "@class": "AnimationScript",
+                "id": {
+                    "uuid": "B0B6CE51-A89B-4801-8E19-2CDA5209198D"
+                },
+                "name": "Strip 2",
+                "enableOnAwake": false,
+                "OwnerLink": {
+                    "@class": "BindingLink",
+                    "targetId": {
+                        "uuid": "F4EF62ED-DC0D-4FDD-B14D-6B43971438B6"
+                    },
+                    "targetRelativeAddress": {
+                        "@class": "NodeRelativeAddressBase",
+                        "index": 1,
+                        "name": "Tail 1",
+                        "subaddress": {
+                            "@class": "NodeRelativeAddressBase",
+                            "index": 0,
+                            "name": "Model",
+                            "subaddress": {
+                                "@class": "NodeRelativeAddressBase",
+                                "index": 3,
+                                "name": "Stripes - Off",
+                                "subaddress": {
+                                    "@class": "NodeRelativeAddressBase",
+                                    "index": 1,
+                                    "name": "Strip 2"
+                                }
+                            }
+                        }
+                    }
+                },
+                "animation": {
+                    "uuid": "35919E67-8128-484B-9695-B7F0F04C137E"
+                },
+                "AnimationType": "object3D",
+                "is_imported": false,
+                "isEnabled": true
+            },
+            {
+                "@class": "AnimationScript",
+                "id": {
+                    "uuid": "70A07BFE-BFED-4814-83B6-7E94DB428408"
+                },
+                "name": "Strip 3",
+                "enableOnAwake": false,
+                "OwnerLink": {
+                    "@class": "BindingLink",
+                    "targetId": {
+                        "uuid": "BD5FFCC6-7923-4FA0-B4A4-A866E6C753D3"
+                    },
+                    "targetRelativeAddress": {
+                        "@class": "NodeRelativeAddressBase",
+                        "index": 1,
+                        "name": "Tail 1",
+                        "subaddress": {
+                            "@class": "NodeRelativeAddressBase",
+                            "index": 0,
+                            "name": "Model",
+                            "subaddress": {
+                                "@class": "NodeRelativeAddressBase",
+                                "index": 3,
+                                "name": "Stripes - Off",
+                                "subaddress": {
+                                    "@class": "NodeRelativeAddressBase",
+                                    "index": 2,
+                                    "name": "Strip 3"
+                                }
+                            }
+                        }
+                    }
+                },
+                "animation": {
+                    "uuid": "DEC9B130-FA68-4F6C-973B-C14B4381F37A"
+                },
+                "AnimationType": "object3D",
+                "is_imported": false,
+                "isEnabled": true
+            },
+            {
+                "@class": "AnimationScript",
+                "id": {
+                    "uuid": "AE284E39-D3C6-4E85-A059-24F26270351A"
+                },
+                "name": "Strip 4",
+                "enableOnAwake": false,
+                "OwnerLink": {
+                    "@class": "BindingLink",
+                    "targetId": {
+                        "uuid": "D8CE2F25-AAEA-4813-AF88-4548B888AC93"
+                    },
+                    "targetRelativeAddress": {
+                        "@class": "NodeRelativeAddressBase",
+                        "index": 1,
+                        "name": "Tail 1",
+                        "subaddress": {
+                            "@class": "NodeRelativeAddressBase",
+                            "index": 0,
+                            "name": "Model",
+                            "subaddress": {
+                                "@class": "NodeRelativeAddressBase",
+                                "index": 3,
+                                "name": "Stripes - Off",
+                                "subaddress": {
+                                    "@class": "NodeRelativeAddressBase",
+                                    "index": 3,
+                                    "name": "Strip 4"
+                                }
+                            }
+                        }
+                    }
+                },
+                "animation": {
+                    "uuid": "9655E0C2-8F81-4F95-B7AF-5A619507B370"
+                },
+                "AnimationType": "object3D",
+                "is_imported": false,
+                "isEnabled": true
+            }
+        ]
+    },
+    "triggers": [
+        {
+            "@class": "CompareTrigger",
+            "id": {
+                "uuid": "D97BF7A6-3ACF-45F9-8BC0-FA30E813DD50"
+            },
+            "ownerScriptId": {
+                "uuid": "A38A0A7C-06F0-4603-99A2-7096DBC67ADC"
+            },
+            "logicOperation": 0,
+            "resultType": 0,
+            "isInverted": false,
+            "triggerName": "",
+            "operation": "==",
+            "eventType": "result_true_started",
+            "leftOperand": "object__FB8678F8_5BE4_47AD_A623_D17BDFFF34E8__fData",
+            "rightOperand": "1"
+        }
+    ]
+}

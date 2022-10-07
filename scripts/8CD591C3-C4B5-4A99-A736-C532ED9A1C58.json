@@ -1,0 +1,106 @@
+{
+    "@class": "TimeLineScript",
+    "id": {
+        "uuid": "8CD591C3-C4B5-4A99-A736-C532ED9A1C58"
+    },
+    "name": "Animation",
+    "enableOnAwake": false,
+    "priority": 0,
+    "loop": false,
+    "is_imported": false,
+    "type": "user",
+    "scripts": {
+        "@class": "StdListRuntimeScript",
+        "list": [
+            {
+                "@class": "AnimationScript",
+                "id": {
+                    "uuid": "0DFFE454-A20E-4A60-A0DA-8363D0A5EDE1"
+                },
+                "name": "Window",
+                "enableOnAwake": false,
+                "OwnerLink": {
+                    "@class": "BindingLink",
+                    "targetId": {
+                        "uuid": "1068D510-7163-4C2A-B443-6B6785BD3EAE"
+                    },
+                    "targetRelativeAddress": {
+                        "@class": "NodeRelativeAddressBase",
+                        "index": 0,
+                        "name": "Head",
+                        "subaddress": {
+                            "@class": "NodeRelativeAddressBase",
+                            "index": 0,
+                            "name": "Model",
+                            "subaddress": {
+                                "@class": "NodeRelativeAddressBase",
+                                "index": 4,
+                                "name": "Window"
+                            }
+                        }
+                    }
+                },
+                "animation": {
+                    "uuid": "A9319369-B5C4-480E-8A12-FBCD8AA77349"
+                },
+                "AnimationType": "object3D",
+                "is_imported": false,
+                "isEnabled": true
+            },
+            {
+                "@class": "AnimationScript",
+                "id": {
+                    "uuid": "46699A64-E689-4234-8C93-38E07489E67C"
+                },
+                "name": "Window 2",
+                "enableOnAwake": false,
+                "OwnerLink": {
+                    "@class": "BindingLink",
+                    "targetId": {
+                        "uuid": "0A606134-6DBB-4317-BBF9-16AE050A22DC"
+                    },
+                    "targetRelativeAddress": {
+                        "@class": "NodeRelativeAddressBase",
+                        "index": 0,
+                        "name": "Head",
+                        "subaddress": {
+                            "@class": "NodeRelativeAddressBase",
+                            "index": 0,
+                            "name": "Model",
+                            "subaddress": {
+                                "@class": "NodeRelativeAddressBase",
+                                "index": 5,
+                                "name": "Window 2"
+                            }
+                        }
+                    }
+                },
+                "animation": {
+                    "uuid": "04CAEE3B-3AF2-483E-BE28-882E90E72F5B"
+                },
+                "AnimationType": "object3D",
+                "is_imported": false,
+                "isEnabled": true
+            }
+        ]
+    },
+    "triggers": [
+        {
+            "@class": "CompareTrigger",
+            "id": {
+                "uuid": "5DBCE7DC-8124-4ACF-9996-473249BC346E"
+            },
+            "ownerScriptId": {
+                "uuid": "8CD591C3-C4B5-4A99-A736-C532ED9A1C58"
+            },
+            "logicOperation": 0,
+            "resultType": 0,
+            "isInverted": false,
+            "triggerName": "",
+            "operation": "==",
+            "eventType": "result_true_started",
+            "leftOperand": "object__69DDF6D0_99F5_4358_85D6_7731B6ACEBC5__fData",
+            "rightOperand": "1"
+        }
+    ]
+}

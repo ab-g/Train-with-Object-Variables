@@ -1,0 +1,52 @@
+{
+    "@class": "TimeLineScript",
+    "id": {
+        "uuid": "67CA3D6A-0A05-4DEA-8FA5-47126CEA4851"
+    },
+    "name": "Animation",
+    "enableOnAwake": false,
+    "priority": 0,
+    "loop": true,
+    "is_imported": false,
+    "type": "user",
+    "scripts": {
+        "@class": "StdListRuntimeScript",
+        "list": [
+            {
+                "@class": "AnimationScript",
+                "id": {
+                    "uuid": "323E31AC-8181-49AE-BC0D-D45F2D55E3F3"
+                },
+                "name": "C",
+                "enableOnAwake": false,
+                "OwnerLink": {
+                    "@class": "BindingLink",
+                    "targetId": {
+                        "uuid": "4BC566D0-57DA-45FE-9A5E-36DDB2DB23A2"
+                    }
+                },
+                "animation": {
+                    "uuid": "1343F185-2BA3-42BC-A9DB-BD75BB24BD01"
+                },
+                "AnimationType": "object3D",
+                "is_imported": false,
+                "isEnabled": true
+            }
+        ]
+    },
+    "triggers": [
+        {
+            "@class": "StartTrigger",
+            "id": {
+                "uuid": "03CA09C5-06AC-4345-AA82-3594686783B3"
+            },
+            "ownerScriptId": {
+                "uuid": "67CA3D6A-0A05-4DEA-8FA5-47126CEA4851"
+            },
+            "logicOperation": 0,
+            "resultType": 0,
+            "isInverted": false,
+            "triggerName": ""
+        }
+    ]
+}
